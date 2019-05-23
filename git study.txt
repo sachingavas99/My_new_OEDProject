@@ -1,0 +1,32 @@
+- how to start new branch with new feature
+- how to resolve confict
+- cs, hooks, 
+- rebase for merge branches 
+- git version must be above 2.2
+- CI/CD pipe line
+- Linus Torvalds
+- centralized/distributed
+- working directory -> staging area -> repository
+- git config (local configuration, global configuration)
+	git config --global user.name "sachin gavas"
+	git config --global user.email "sachin_gavas@persistent.co.in"
+	git config user.name // read user name
+	git config --lilst
+- git clone url
+- git init
+- git init --bare // for sharing perpose only
+- git status
+- git commit -am // add and message
+- git add *.java
+- $ git commit -m "reqNo12324:- MyClass java is created to print hello"
+- git checkout, git reset, git revert
+- git log
+- git log --oneline -1 // to check last one commit
+- git log --graph --oneline 
+- git log --author="sachin" --oneline
+- git log --since="05-23-2019" --oneline
+- git log --until="05-23-2019" --oneline
+- git log -- help
+- git llog --grep="MyClass"
+- .gitingore
+- git add . // to add ingore file
